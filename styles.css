@@ -1,0 +1,105 @@
+body{
+    background-color: purple;
+}
+
+p {
+    font-family: monospace;
+    text-align: center;
+    color: lightpink;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightyellow;
+    font-size: italic;
+    text-align: right;
+}
+
+/* Overrides styling above as the stylesheet cascades (or id read) downwards */
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+    color: white;
+    font-style: normal;
+}
+
+h2 {
+    color: black;
+}
+
+/* Classes are selected with .className */
+/* Overrides tag styling */
+.special {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+}
+
+ul{
+    list-style-type: square;
+}
+
+/* uses roman numerals as bullet points */
+ol {
+    list-style-type: upper-roman;
+}
+
+li {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fave {
+    color: orangered;
+}
+
+.pizza {
+    width: 50%;
+}
+
+a{
+    color: white;
+}
+
+/* Cake page */
+
+.cake-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section-one {
+    border: 1pm solid white;
+    background-color: darkslateblue;
+}
+
+.caption {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+.container {
+    /* enables flexbox */
+    display: flex;
+    /* spaces objects evently along main axis (horrizonal by default) */
+    justify-content: space-evenly;
+    /* allows item to wrap over multiple lines
+    if page is too small to show in a row, content goes onto next row */
+    flex-wrap: wrap;
+}
+
+.cake-item {
+    width: 275px;
+    height: 275px;
+    padding: 4px;
+}
+
+.cake-group{
+    width: 275px;
+}
